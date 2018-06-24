@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubscriptionCard.vue has the expected HTML structure 1`] = `
+<div
+  class="subscription-card"
+  style="background-color: rgb(68, 84, 101);"
+>
+  <div
+    class="name"
+  >
+    
+    Netflix
+  
+  </div>
+   
+  <div
+    class="costs"
+  >
+    
+    $9.99
+  
+  </div>
+   
+  <div
+    class="controls"
+  >
+    <!---->
+  </div>
+</div>
+`;

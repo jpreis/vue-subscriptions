@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubscriptionStats.vue has the expected HTML structure 1`] = `
+<p
+  class="subscription-stats"
+>
+  
+    No subscriptions yet...
+  
+</p>
+`;
+
+exports[`SubscriptionStats.vue has the expected HTML structure 2`] = `
+<p
+  class="subscription-stats"
+>
+  
+    I currently have
+    
+  <strong>
+    2 active subscriptions
+  </strong>
+  . 
+  <br />
+   That's
+    
+  <strong>
+    $30.00 a month 
+  </strong>
+   and
+    
+  <strong>
+    $360.00 a year
+  </strong>
+  . 
+</p>
+`;

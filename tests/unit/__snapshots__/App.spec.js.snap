@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue has the expected HTML structure 1`] = `
+<div
+  id="app"
+>
+  <h1>
+    My subscriptions
+  </h1>
+   
+  <form>
+    <input
+      class="subscription-input"
+      placeholder="subscription (e.g. Netflix)"
+      type="text"
+    />
+     
+    <input
+      class="subscription-input"
+      placeholder="monthly costs (e.g. 9.99)"
+      type="text"
+    />
+     
+    <button
+      type="submit"
+    >
+      Add 
+    </button>
+  </form>
+   
+  <p
+    class="subscription-stats"
+  >
+    
+    No subscriptions yet...
+  
+  </p>
+   
+  <div
+    class="subscription-cards"
+  />
+</div>
+`;
+
+exports[`App.vue has the expected HTML structure 2`] = `
+<div
+  id="app"
+>
+  <h1>
+    My subscriptions
+  </h1>
+   
+  <form>
+    <input
+      class="subscription-input"
+      placeholder="subscription (e.g. Netflix)"
+      type="text"
+    />
+     
+    <input
+      class="subscription-input"
+      placeholder="monthly costs (e.g. 9.99)"
+      type="text"
+    />
+     
+    <button
+      type="submit"
+    >
+      Add 
+    </button>
+  </form>
+   
+  <p
+    class="subscription-stats"
+  >
+    
+    I currently have
+    
+    <strong>
+      1 active subscription
+    </strong>
+    . 
+    <br />
+     That's
+    
+    <strong>
+      $10.99 a month 
+    </strong>
+     and
+    
+    <strong>
+      $131.88 a year
+    </strong>
+    . 
+  </p>
+   
+  <div
+    class="subscription-cards"
+  >
+    <p
+      class="subscriptionCard"
+    />
+  </div>
+</div>
+`;
