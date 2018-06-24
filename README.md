@@ -2,6 +2,8 @@
 
 Demo application for an introduction to Vue.js.
 
+![Vue Subscriptions](/public/app.png?raw=true)
+
 This app helps you keep track of you monthly subscriptions and incoming costs. Subscriptions can be toggled active/inactive and be given different colors for better distinction.
 
 Please note that this app is for introductory purposes and is thus purposefully kept simple in many places.
